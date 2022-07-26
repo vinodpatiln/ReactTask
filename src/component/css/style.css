@@ -1,0 +1,18 @@
+.film-container, .people-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+/* .people-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;} */
+.film-container h3, .people-container h3{ text-align: center;}
+.grid-item{
+    padding: 0 20px;
+    border: 1px solid;
+    margin: 10px 10px;
+    text-align: left;
+    
+}
+.film-list{display: flex;}
